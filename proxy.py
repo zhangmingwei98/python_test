@@ -12,7 +12,7 @@ def main():
     # request
     request = urllib.request.Request(url,headers=header)
 
-    # proxy
+    # proxy    
     proxy = {
         "http":"http://163.204.242.234:9999"
     }
